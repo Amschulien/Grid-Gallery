@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css">
     <title>Grid Gallery</title>
   </head>
   <body>
@@ -11,28 +12,34 @@
       <nav class="header-nav">
         <h1 class="logo"><a href="index.html">Grid Galleries</a></h1>
         <ul class="nav-menu">
-          <li class="nav-item"><a href="index.html">Auto Fit</a></li>
-          <li class="nav-item"><a href="grid-span.html">Grid Span</a></li>
-          <li class="nav-item"><a href="lightbox.html">Lightbox</a></li>
+          <li class="nav-item">
+            <a href="index.html">Auto Fit</a>
+          </li>
+          <li class="nav-item">
+            <a href="grid-span.html">Grid Span</a>
+          </li>
+          <li class="nav-item">
+            <a href="lightbox.html">Lightbox</a>
+          </li>
           <li class="nav-item">
             <a href="lightbox-caption.html">Lightbox Caption</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="gallery-page">
-      <h1>Auto Fit Gallery</h1>
-      <section class="gallery-auto-fit">
-        <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC1.jpg"
+    <main class="gallery">
+      <h1>Lightbox Gallery</h1>
+      <section class="lightbox">
+        <div class="gallery-item w-3">
+          <a href="img/20200826 Schulien Amanda EC1.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC1.jpg"
               alt="Collage 1 from Contemporary Art Elective"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC2.jpg"
+        <div class="gallery-item w-2 h-2">
+          <a href="img/20200826 Schulien Amanda EC2.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC2.jpg"
               alt="Collage 2 from Contemporary Art Elective"
@@ -40,23 +47,23 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC3.jpg"
+          <a href="img/20200826 Schulien Amanda EC3.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC3.jpg"
               alt="Collage 3 from Contemporary Art Elective"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC4.jpg"
+        <div class="gallery-item h-2">
+          <a href="img/20200826 Schulien Amanda EC4.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC4.jpg"
               alt="Collage 4 from Contemporary Art Elective"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC5.jpg"
+        <div class="gallery-item w-2">
+          <a href="img/20200826 Schulien Amanda EC5.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC5.jpg"
               alt="Collage 5 from Contemporary Art Elective"
@@ -64,15 +71,15 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC6.jpg"
+          <a href="img/20200826 Schulien Amanda EC6.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC6.jpg"
               alt="Collage 6 from Contemporary Art Elective"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC7.jpg"
+        <div class="gallery-item h-3">
+          <a href="img/20200826 Schulien Amanda EC7.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC7.jpg"
               alt="Collage 7 from Contemporary Art Elective"
@@ -80,15 +87,15 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC8.jpg"
+          <a href="img/20200826 Schulien Amanda EC8.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC8.jpg"
               alt="Collage 8 from Contemporary Art Elective"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC9.jpg"
+        <div class="gallery-item w-2 h-3">
+          <a href="img/20200826 Schulien Amanda EC9.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC9.jpg"
               alt="Collage 9 from Contemporary Art Elective"
@@ -96,15 +103,15 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/20200826 Schulien Amanda EC10.jpg"
+          <a href="img/20200826 Schulien Amanda EC10.jpg" class="glightbox"></a>
             ><img
               src="img/20200826 Schulien Amanda EC10.jpg"
               alt="Collage 10 from Contemporary Art Elective"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item">
-          <a href="img/frog.jpg"
+        <div class="gallery-item h-2 w-2">
+          <a href="img/frog.jpg" class="glightbox"></a>
             ><img
               src="img/frog.jpg"
               alt="Digitally Painted Frog"
@@ -112,7 +119,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/Roald_NewHorizon.png"
+          <a href="img/Roald_NewHorizon.png" class="glightbox"></a>
             ><img
               src="img/Roald_NewHorizon.png"
               alt="Roald from ACNH"
@@ -121,5 +128,9 @@
         </div>
       </section>
     </main>
+    <script src="dist/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({ loop: true});
+    </script>
   </body>
 </html>
